@@ -3,6 +3,7 @@ function x(e, t) {
   for (var _ in t) e[_] = t[_];
   return e;
 }
+
 function He(e) {
   e && e.parentNode && e.parentNode.removeChild(e);
 }
